@@ -1,5 +1,7 @@
 package com.sahdyk;
 
+import java.sql.SQLOutput;
+// #3
 public class Strings {
 
     public static void main(String[] args){
@@ -21,6 +23,12 @@ public class Strings {
          */
 
         System.out.println(message.endsWith("d"));
+        System.out.println(message.replace(" ", "-"));
+        /* "target" is the parameter
+        "H" and "Y" are the arguments.
+        Difference between parameters and arguments is that
+        parameters are the fake values and arguments are the actual values
+         */
 
     }
 }
