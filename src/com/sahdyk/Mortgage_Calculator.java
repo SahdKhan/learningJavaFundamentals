@@ -36,7 +36,8 @@ public class Mortgage_Calculator {
 
         float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
         int numberOfPayments = years * MONTHS_IN_YEAR;
-        double mortgage = principle * ((monthlyInterest * Math.pow(1 + monthlyInterest, numberOfPayments))
+        double mortgage = principle *
+                ((monthlyInterest * Math.pow(1 + monthlyInterest, numberOfPayments))
                 / (Math.pow(1 + monthlyInterest, numberOfPayments) - 1));
 
         return mortgage;
