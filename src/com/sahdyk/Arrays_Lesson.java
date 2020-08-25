@@ -1,7 +1,7 @@
 package com.sahdyk;
 import java.util.Arrays;
 
-public class ArraysLesson {
+public class Arrays_Lesson {
 // #5
     public static void main(String[] args){
         int[] numbers = new int[5];

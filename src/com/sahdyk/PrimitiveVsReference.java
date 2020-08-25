@@ -16,7 +16,7 @@ public class PrimitiveVsReference {
         */
 
         Point point1 = new Point(1,1);
-        /* When line 15 is run, the system will allocate some memory
+        /* When line 18 is run, the system will allocate some memory
         to create an address to hold the value, in this example the
         system creates an address for Point and that address hold x:1, y:2
          */
